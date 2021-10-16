@@ -1,0 +1,8 @@
+github.com/fishy/test-go-mod-retract v0.0.0-20211016165524-2d05d02ee912 h1:biGMQIwY54NuSBdUZdeMh1qyf4tQY3cug+XQUCvEcpA=
+github.com/fishy/test-go-mod-retract v0.0.0-20211016165524-2d05d02ee912/go.mod h1:MdlnTIBegMn59vSjyXHaGC3hNVhOHVIUeFYpN1IgKno=
+github.com/fishy/test-go-mod-retract v0.1.0 h1:YZPw8NB8awV7FdJrLBAGr2sFc7GhAS+X9uimeRxM5S4=
+github.com/fishy/test-go-mod-retract v0.1.0/go.mod h1:wcls4Kbtd02ipjEi1xB2OO0Bk4K7yGQBQOZgvwbeSTw=
+github.com/fishy/test-go-mod-retract v0.1.1-0.20211016165917-fb96cca7dbe4 h1:Ct3rfloFByPlEOG7AOzZzHkKEiRuOtUjFVeBNbttHSU=
+github.com/fishy/test-go-mod-retract v0.1.1-0.20211016165917-fb96cca7dbe4/go.mod h1:XtmTuqioK+AaK7L4vfBi2IgP4PqXI+lzT0Raig9zPBw=
+github.com/fishy/test-go-mod-retract/lib v0.0.0-20211016165524-2d05d02ee912 h1:/I1SHtQ8GlnHwuM0IGiD1RJ9MYGZVzb5WPoLP6/E9kI=
+github.com/fishy/test-go-mod-retract/lib v0.0.0-20211016165524-2d05d02ee912/go.mod h1:EAiZc4oNOcZ1tHHixQ9eF/RfwnVH7A8VENNgt7oSSrA=
