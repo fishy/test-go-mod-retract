@@ -62,6 +62,15 @@ This does NOT work as intended,
 because currently `retract` can only be used to retract versions from the same
 `go.mod`, not other `go.mod` from the same repository.
 
-The only way to retract that version is to retract it from `lib/go.mod`,
-but that totally defeats the purpose of retraction because `lib/go.mod` itself
-is the mistake we are trying to fix.
+Thanks to @seankhliao [2], it's possible to add back `lib/go.mod`,
+retract all versions up to a future version:
+
+[2]: https://github.com/golang/go/issues/49015#issuecomment-944993211
+
+```
+retract [v0.0.0-00000000000000-000000000000, v0.0.1-retract]
+```
+
+And then tag that version as `lib/v0.0.1-retract`.
+This successfully resolved the issue.
+`lib/go.mod` can be removed in the next commit.
